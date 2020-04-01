@@ -1,0 +1,81 @@
+body, html {
+  height: 100%;
+    text-align:center;
+    font-family:Montserrat;
+    font-size: 40px;
+    font-weight: 200;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("background.jpg");
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment:fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.head1
+{
+    margin: 0 auto;
+	color:white;
+    font-size:70px;
+    text-align:center; 
+    position: relative;
+    top:  200px;
+    position: relative;
+    right:333px;
+}
+
+.head2
+{
+     position: relative;
+    bottom: 80px;
+}
+
+.button 
+{
+  background-color:#e1a3a4; /* pinkish */
+  border:2px solid #e1a3a4;
+  color: white;
+  padding: 15px 32px;
+    border-radius: 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;    
+}
+/*button animation    */
+    .button span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+
+    .button span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+
+    .button:hover span {
+      padding-right: 25px;
+    }
+
+    .button:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
+/*----------------------------*/
