@@ -1,0 +1,10 @@
+.vscode
+node_modules
+dist
+SpoolFront
+*.log
+yarn.lock
+.idea
+.env
+/public/recordings/*
+/public/user-uploads/*
